@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { handleError, buildHeaders, buildQueryParams } = require('./utils');
 
-const BASE_URL = 'https://api.autoresbot.com'; // http://localhost:3000 https://api.autoresbot.com
+const BASE_URL = 'https://api.betabotz.eu.org'; // http://localhost:3000 https://api.autoresbot.com
 const BASE_UPLOADER = 'https://autoresbot.com'; // https://autoresbot.com
 
 class ApiAutoresbot {
